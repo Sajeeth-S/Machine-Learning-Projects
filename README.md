@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Introduction](#kmeans-clustering-algorithm)
+- [Introduction](#introduction)
 - [Why have I made this?](#why-have-i-made-this)
 - [Optimisations/Features](#optimisationsfeatures)
 - [What have I learnt from this?](#what-have-i-learnt-from-this)
