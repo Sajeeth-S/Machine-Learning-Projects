@@ -11,7 +11,7 @@ I started this project since I had been building an unsupervised trading algorit
 
 ## Optimisations/Features
 - I have managed to implement a K-Means++ approach to initialising the first $k$ centroids. This is where the first centroid is chosen uniformly at random from the data points that are being clustered, after which each subsequent centroid is chosen from the remaining data points with probability proportional to its squared distance from the point's closest existing centroid.<br> Although this takes greater time to initialise, it significantly reduces the time to run the actual K-Means Clustering Algorithm. Hence overall, this is a optimisation in the long run.
-- An issue with the Voronoi Diagram implementation through the SciPy library is that the regions are not corresponding to our centroids and clusters. I have managed to amend this, allowing for greater visualisation since we can easily colour the regions and data points within a cluster the same.
+- An issue with the Voronoi Diagram implementation through the SciPy library is that each regions does not necessarily correspond to its respective centroids and clusters and thus, the colours will be different. I have managed to amend this, allowing for greater visualisation since we can easily colour the regions and data points within a cluster the same.
 
 ## What have I learnt from this?
 Instead of simply importing libraries and running pre-existing functions, I have thorougly understood how this algorithm works and I feel I am able to incorporate this way of thinking into other machine learning methods.
@@ -24,3 +24,6 @@ Moreover, I have learnt about the existence of Voronoi Diagrams and how useful t
 - I could store all iterations of centroids, such that I can plot a Voronoi Diagram for each iteration and iteratively see the change each time. For now, I have only plotted the start and end iterations. However, with the K-Means++ implementation, only a few iterations are required for most datasets.
 - I have stored my distances in a dataframe when implementing K-Means++, in order to tabulate and display distances, however this is not necessary. So to save time and computation, I should instead store them in simple numpy arrays.
 - I would like to implement other clustering methods that can deal with non-spherical data better and also avoid clustering spherically.
+
+## How to use this?
+Firstly, I advise going through the Jupyter Notebooks to understand how the algorithm works and for a step by step methodology. Then, one could use the Python file provided on the .csv datasets provided or alternatively use any 2 dimensional data. I have only included the code for the actual clustering of data points and not the visualisation since this is not necessary, it is simply a visual aid to see how the algorithm works.
