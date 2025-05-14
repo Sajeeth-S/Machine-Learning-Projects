@@ -4,10 +4,10 @@
 
 - [Introduction](#kmeans-clustering-algorithm)
 - [Why have I made this?](#why-have-i-made-this)
-- [Optimisations/Features](#optimistaionsfeatures)
+- [Optimisations/Features](#optimisationsfeatures)
 - [What have I learnt from this?](#what-have-i-learnt-from-this)
 - [Improvements to be made](#improvements-to-be-made)
-- [Usage](#how-to-use-this)
+- [How to use this?](#how-to-use-this)
 
 ## Introduction
 This repository contains a K-Means Clustering Algorithm Visualisation project. Here we will:
