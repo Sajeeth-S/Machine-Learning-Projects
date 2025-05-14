@@ -1,3 +1,12 @@
+## Table of Contents
+
+- [Introduction](#kmeans-clustering-algorithm)
+- [Why have I made this?](#why-have-i-made-this)
+- [Optimistaions/Features](#optimistaionsfeatures)
+- [What have I learnt from this?](#what-have-i-learnt-from-this)
+- [Improvements to be made](#improvements-to-be-made)
+- [Usage](#how-to-use-this)
+
 # **K-Means Clustering Algorithm**
 This repository contains a K-Means Clustering Algorithm Visualisation project. Here we will:
 1) Explain how this algorithm works step by step, and explain the maths behind it.
@@ -27,3 +36,5 @@ Moreover, I have learnt about the existence of Voronoi Diagrams and how useful t
 
 ## How to use this?
 Firstly, I advise going through the Jupyter Notebooks to understand how the algorithm works and for a step by step methodology. Then, one could use the Python file provided on the .csv datasets provided or alternatively use any 2 dimensional data. I have only included the code for the actual clustering of data points and not the visualisation since this is not necessary, it is simply a visual aid to see how the algorithm works.
+
+Please ensure the necessary libraries have been imported, the full list can either be seen at the start of the Python file or the top of the notebooks.
