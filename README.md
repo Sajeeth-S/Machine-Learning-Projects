@@ -1,13 +1,15 @@
+# **K-Means Clustering Algorithm**
+
 ## Table of Contents
 
 - [Introduction](#kmeans-clustering-algorithm)
 - [Why have I made this?](#why-have-i-made-this)
-- [Optimistaions/Features](#optimistaionsfeatures)
+- [Optimisations/Features](#optimistaionsfeatures)
 - [What have I learnt from this?](#what-have-i-learnt-from-this)
 - [Improvements to be made](#improvements-to-be-made)
 - [Usage](#how-to-use-this)
 
-# **K-Means Clustering Algorithm**
+## Introduction
 This repository contains a K-Means Clustering Algorithm Visualisation project. Here we will:
 1) Explain how this algorithm works step by step, and explain the maths behind it.
 2) Go through some use cases and drawbacks when using it.
