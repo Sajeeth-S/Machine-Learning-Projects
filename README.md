@@ -1,6 +1,6 @@
 # **K-Means Clustering Algorithm**
 
-## Table of Contents
+## Table of Contents 
 
 - [Introduction](#introduction)
 - [Why have I made this?](#why-have-i-made-this)
